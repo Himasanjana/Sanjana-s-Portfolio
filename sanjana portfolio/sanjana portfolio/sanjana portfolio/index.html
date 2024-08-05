@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <title>Portfolio - CodeCreators</title>
+        <link rel="stylesheet" href="style.css">
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+    </head>
+    
+    
+    <body>
+        <!---Nav menu---->
+        <div class="container">
+            <nav id="header">
+                <div class="nav-logo">
+                    <p class="nav-name">Portfolio</p>
+                </div>
+                <div class="nav_menu" id="myNavMenu">
+                    <ul class="nav_menu_list">
+                        <li class="nav_list">
+                            <a href="#home" Class="nav-link active-link">Home</a>
+                            <div class="circle"></div>
+                        </li>
+                        <li class="nav_list">
+                            <a href="#about" Class="nav-link active-link">About</a>
+                            <div class="circle"></div>
+                        </li>
+                        <li class="nav_list">
+                            <a href="#projects" Class="nav-link active-link">Projects</a>
+                            <div class="circle"></div>
+                        </li>
+                        <li class="nav_list">
+                            <a href="#contact" Class="nav-link active-link">Contact</a>
+                            <div class="circle"></div>
+                        </li>
+                    </ul>
+                </div>
+                <!----Dark mode---->
+                <div class="mode">
+                    <div class="moon-sun" id="toggle-switch">
+                        <i class="fa fa-moon" id="moon"></i>
+                        <i class="fa fa-sun" id="sun"></i>
+                    </div>
+                </div> 
+                <div class="nav-menu-btn">
+                    <i class="uil uil-bars" onclick="mymenufunction"></i>
+                </div>
+            </nav>
+
+            <!---main---->
+
+            <main class="wrapper">
+                <section class="featured-box" id="home">
+                    <div class="featured-text">
+                        <div class="hello">
+                            <p>Hello, I'm</p>
+                        </div>
+                        <div class="featured-name">
+                            <span class="typedText">Hima Sanjana</span>
+                        </div>
+                        <div class="text-info">
+                            <p>My name is Hima Sanjana! I'm a web developer. Here is a glimpse into my work and accomplishments.</p>
+                        </div>
+                        <div class="text-btn">
+                            <button class="btn hire-btn">Hire Me</button>
+                            <button class="btn">Download CV<i class="uil uil-file"></i></button>
+                        </div>
+                        <div class="social_icons">
+                            <div class="icon">
+                                <a href="https://www.instagram.com/_s.a.n.j.a.n.a_3/" target="_blank">
+                                    <i class="uil uil-instagram"></i>
+                                </a>
+                            </div>
+                            <div class="icon">
+                                <a href="https://www.linkedin.com/in/hima-sanjana-vanacharla-988991295/" target="_blank">
+                                    <i class="uil uil-linkedin"></i>
+                                </a>
+                            </div>
+                            <div class="icon">
+                                <a href="https://web.telegram.org/a/" target="_blank">
+                                    <i class="uil uil-telegram"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="featured-image">
+                        <div class="image">
+                            <img src="images/s1.jpg" alt="Featured Image">
+                        </div>
+                    </div>
+                </section>
+            </main>
+            
+                <!----about box---->
+                <section class="section" id="about">
+                    <div class="top-header">
+                        <h1>About me</h1>
+                    </div>
+                    <div class="about-info row">
+                        <div class="col about-me">
+                            <img src="images/s1.jpg" alt="" class="profile" />
+                        </div>
+                        <div class="col about-text">
+                            <h2>Web developer</h2>
+                            <p> My name is Hima Sanjana! I'm a web developer, and my portfolio is a representation of all that I've learned and accomplished as a science and engineering student. I have completed my schooling at P.E.N School, my intermediate at Narayana Junior College, and now pursuing my bachelor's in the stream of CSE at NSRIT College. My proficiency in HTML, CSS, and Bootstrap allows me to bring the best performance in any field, cross-platform compatibility.</p>
+                            <button class="about-me-btn">About Me</button>
+                        </div>
+                    </div>
+                </section>
+                
+                            <div class="skill">
+                                <div class="skill-box">
+                                    <div class="title">HTML</div>
+                                    <div class="skill-bar html">
+                                        <div class="skill-per" data-tooltip="70%">
+                                            <span class="tooltip">70%</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="skill-box">
+                                    <div class="title">CSS</div>
+                                    <div class="skill-bar css">
+                                        <div class="skill-per" data-tooltip="70%">
+                                            <span class="tooltip">70%</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="skill-box">
+                                    <div class="title">Python</div>
+                                    <div class="skill-bar python">
+                                        <div class="skill-per" data-tooltip="60%">
+                                            <span class="tooltip">60%</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="skill-box">
+                                    <div class="title">JavaScript</div>
+                                    <div class="skill-bar javascript">
+                                        <div class="skill-per" data-tooltip="50%">
+                                            <span class="tooltip">50%</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="skill-box">
+                                    <div class="title">PHP</div>
+                                    <div class="skill-bar php">
+                                        <div class="skill-per" data-tooltip="30%">
+                                            <span class="tooltip">30%</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                    <!---project box---->
+                    <section class="section" id="projects">
+                        <div class="top-header">
+                            <h1>Projects</h1>
+                        </div>
+                        <div class="project-container">
+                            <div class="project-box">
+                                <i class="uil uil-briefcase-alt"></i>
+                                <h3>Completed</h3>
+                                <label>BMI Calculator</label>
+                                <div class="project-image">
+                                    <img src="images/bmi calculator.jpg" alt="BMI Calculator">
+                                </div>
+                            </div>
+                            <div class="project-box">
+                                <i class="uil uil-briefcase-alt"></i>
+                                <h3>Experienced</h3>
+                                <label>Web Development</label>
+                                <div class="project-image">
+                                    <img src="images/csst.jpg" alt="Web Development">
+                                </div>
+                            </div>
+                            <div class="project-box">
+                                <i class="uil uil-briefcase-alt"></i>
+                                <h3>Completed</h3>
+                                <label>5 Projects</label>
+                                <div class="project-image">
+                                    <img src="images/project.jpg" alt="5 Projects">
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    
+                    <!---contact box--->
+                    <section class="section" id="contact">
+                        <div class="top-header">
+                            <h1>Let's Work together</h1>
+                            <span>Do you have any ideas about web development,contact me here</span>
+                        </div>
+                        <div class="row">
+                            <div class="col">
+                                <div class="contact-info">
+                                    <h2>Find me <i class="uil uil-corner-right-down"></i></h2>
+                                    <p><i class="uil uil-envelop">Email:vanacharlahimasanjana@gmail.com</i></p>
+                                    <p><i class="uil uil-phone">phone:9492399638</i></p>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="form-control">
+                                    <div class="form-inputs">
+                                        <input type="text" class="input field" placeholder="Your Name">
+                                        <input type="text" class="input-field" placeholder=""Your Email>
+                                    </div>
+                                    <div class="text-area">
+                                        <input type="text" class="input-subject" placeholder="subject">
+                                        <textarea placeholder="Message"></textarea>
+                                    </div>
+                                    <div class="form-button">
+                                        <button class="btn">Send<i class="uil uil-message"></i>/button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </main>
+                <!---footer---->
+                <footer>
+                    <div class="middle-footer">
+                        <ul class="footer-menu">
+                            <li class="footer_menu_list">
+                                <a href="#home">HOME</a>
+                            </li>
+                            <li class="footer_menu_list">
+                                <a href="#about">ABOUT</a>
+                            </li>
+                            <li class="footer_menu_list">
+                                <a href="#projects">PROJECTS</a>
+                            </li>
+                            <li class="footer_menu_list">
+                                <a href="#contact">CONTACT</a>
+                                
+                        </ul>
+                    </div>
+                </footer>                                    </figcaption>
+                                </figure>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </main>
+        </div>
+    </body>
+    </html>                  
+                    </li>
+                </div>
+            </nav>        </div>
+    </body>
+</html>
